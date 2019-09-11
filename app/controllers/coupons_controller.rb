@@ -8,4 +8,7 @@ class CouponsController < ApplicationController
     @coupon = Coupon.find(params[:id])
   end
 
+  def new
+  end
+
 end
